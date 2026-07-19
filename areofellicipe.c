@@ -1,16 +1,17 @@
-#include<stdio.h>
-#include<conio.h>
-int main
+#include <stdio.h>
+#include <conio.h>
+
+int main() 
 {
-    float a,b,area;
+    float a, b, area;
 
-    printf("Enter the value of a: ");
-    scanf("%f",&a);
-    printf("Enter the value of b: ");
-    scanf("%f",&b);
+    printf("Enter the value of a (semi-major axis): ");
+    scanf("%f", &a);
+    printf("Enter the value of b (semi-minor axis): ");
+    scanf("%f", &b);
 
-    area = 3.14 * a * b;
+    area = 3.14159 * a * b; 
 
-    printf("The area of ellipse is: %f", area);
+    printf("The area of ellipse is: %f\n", area);
     return 0;
 }
